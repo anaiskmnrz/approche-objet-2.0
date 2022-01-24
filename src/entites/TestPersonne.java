@@ -29,6 +29,12 @@ public class TestPersonne {
 
 		personne1.adressePostale = adresse1;
 		personne2.adressePostale = adresse2;
+		
+		
+		Personne personne3 = new Personne("rachel","fekok");
+		Personne personne4 = new Personne("ludovic", "hiort", adresse1);
+		
+		
 	}
 
 }
