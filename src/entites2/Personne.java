@@ -23,4 +23,7 @@ public class Personne {
 		this.adressePostale = adressePostale;
 	}
 
+	public String prenom() {
+		return this.prenom;
+	}
 }
