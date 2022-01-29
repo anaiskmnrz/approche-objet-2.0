@@ -6,8 +6,12 @@ public class Compte {
 	public int solde;
 	
 	public Compte(int numero, int solde) {
-		numero = this.numero;
-		solde = this.solde;
+		this.numero = numero;
+		this.solde = solde;
+	}
+	
+	public String toString() {
+		return "numero : " + numero + "\nsolde: " + solde;
 	}
 
 }
